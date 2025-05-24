@@ -1,0 +1,1019 @@
+
+.title{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(72, 70, 70);
+    padding: 0px;
+    width:100%;
+    margin: 0%;
+    overflow: hidden;
+    margin-left: 0;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(203, 211, 211);
+    padding: 15px;
+    display: block;
+}
+.navbar a:hover{
+    background-color: dimgray;
+}
+.navbar li{
+    float: left;
+}
+.searchbar2{
+    margin-top: 150px;
+    text-align: center;
+    
+    
+
+}
+.description{
+   text-align: center;
+
+}
+.search-bar{
+    width: 500px;
+    size: 500px;
+    height: 50px;
+    display: inline-block;
+}
+.search_icon{
+    display: inline-block;
+    background-color: dimgrey;
+    color: whitesmoke;
+    margin-top: 5px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 10px;
+}
+.search_icon:hover{
+    background-color: rgb(88, 88, 88);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.emial-bar{
+    display: block;
+    width: 490px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 460px;
+}
+.placeholder{
+    position: absolute;
+    top: 500px;
+    left: 700px;
+    opacity: 10%;
+}
+.name-bar{
+    height: 60px;
+    width: 245px;
+    margin-top: 100px;
+    margin-left: 460px;
+}
+.last-name-bar{
+    margin-top: 100px;
+    height: 60px;
+    width: 245px;
+}
+.signup{
+    background-color:blanchedalmond;
+    width: 415px;
+    margin-top: 20px;
+    height: 70px;
+    position: absolute;
+    color: #493d2d;
+    border-radius: 5px;
+}
+.signup:hover{
+    cursor: pointer;
+    background-color: bisque;
+    transition: 1s;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(72, 70, 70);
+    padding: 0px;
+    margin: 0%;
+    overflow: hidden;
+    
+
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(203, 211, 211);
+    padding: 15px;
+    display: block;
+}
+.navbar a:hover{
+    background-color: dimgray;
+}
+.navbar li{
+    float: left;
+}
+.searchbar2{
+    margin-top: 150px;
+    text-align: center;
+    
+    
+
+}
+
+/**header**/
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    position: fixed;
+    background-color: rgba(154, 154, 150, 0.553);
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid;
+    border-bottom-color: rgb(81, 81, 78);
+
+}
+.middle-section{
+    display: flex;
+    flex: 1;
+    font-size: 100px;
+    max-width: 500px;}
+
+.searchbar{
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:30px;
+}
+
+.search-icon{
+    width: 40px;
+    background-color:rgba(240, 248, 255, 0.659);
+    margin-top: 2.5px;
+    border-top-right-radius: 30px ;
+    border-bottom-right-radius:30px ;
+    
+
+}
+.search-icon-button{
+    border-top-right-radius: 30px ;
+    border-bottom-right-radius:30px ;
+}
+    
+
+.left-section{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.left-section a{
+    text-decoration: none;
+    color: rgb(56, 53, 53);
+}
+.hamburger-menu{
+    width: 31px;
+    
+    
+}
+.sign-in-icon:hover{
+    background-color: rgb(150, 149, 148);
+    cursor:pointer;
+    transition: 1s;
+
+}
+.sign-in-icon,
+.home {
+    margin-right: 10px;
+    padding: 10px;
+}
+.home:hover{
+    background-color: rgb(150, 149, 148);
+    transition: 1s;
+    cursor:pointer;
+
+}
+
+.right-section{
+    display: flex;
+    max-width: 200px;
+}
+
+.shopping-cart-icon {
+    width: 30px;
+    height: 30px;
+}
+.shopping-cart-icon:hover{
+   cursor: pointer;
+    
+
+}
+.col-md-6 {
+    display: flex;
+    align-items: center;
+}
+.text-right {
+    text-align: right;
+}
+.shopping-cart-icon.p{
+    color: rgb(180, 165, 8);
+
+}
+.js-quantity{
+    position: absolute;
+    font-style: italic;
+    top: -10px;
+    bottom: 50px;
+    left: 1430px;
+    z-index: 1;
+    padding: 10px;
+}
+.quantityForCart{
+    width:20px;
+    height: 20px;
+    border-radius: 300px;
+    background-color: rgba(103, 97, 105, 0.451);
+    position: absolute;
+    z-index: auto;
+    text-align: center;
+    top: 1px;
+    left: 1425px;
+}
+
+/**side bar**/
+.side-bar{
+    display: flex;
+    background-color: rgba(154, 154, 150, 0.553);
+    position: fixed;
+    right: 0;
+    top: 50px;
+    bottom: 0;
+    width: 95px;
+    
+}
+.side-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 0%;
+}
+.side-bar li{
+    display: block;
+    padding: 10px;
+
+}
+.side-bar li:hover{
+    size: 100%;
+    background-color: rgba(107, 107, 105, 0.553);
+    transition: 1s;
+    cursor: pointer;
+
+}
+.side-bar a{
+    display: inline-block;
+    
+    
+}
+/**main**/
+
+body{
+    margin: 0;
+    margin-top: 100px;
+    background-color: rgb(223, 222, 222);
+    margin-left: 20px;
+    padding-bottom: 1000px;
+    
+}
+.contact_page{
+    display: flex;
+    position: fixed;
+    background-color: aquamarine;
+    width: 100px;
+    height: 50px;
+
+}
+
+/**imgs**/
+.project-grid{
+    display: grid;
+    align-content: center;
+    grid-template-columns: 150fr  150fr 150fr;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+.product-img-class{
+    height: 500px;
+    
+    
+    
+}
+.product-img-class:hover{
+    border: solid rgb(0, 0, 0);
+    transition-delay: 1.5ms;
+}
+.product-img{
+    height: 100%;
+    width:100%;
+    
+    
+}
+.product-img-box{
+    background-color: blanchedalmond;
+    width:100%;
+    height: 80%;
+    object-fit: fill;
+}
+
+.incrementer{
+    background-color: aliceblue;
+    display: inline-flex;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+.incrementer span{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.incrementer span.num{
+    font-size: 15px;
+    border-left: 2px solid rgba(0, 0 , 0, 0.2);
+    border-right: 2px solid rgba(0, 0 , 0, 0.2);
+
+}
+
+.contact-us{
+    text-align: center;
+}
+.Questions{
+    text-align: center;
+}
+.table{
+    text-align:center;
+    
+}
+.table li{
+    border:solid;
+    border-color: #493d2d;
+    width: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    list-style: none;
+    text-align:center;
+
+
+    
+    
+}
+.table td{
+    display: inline-block;
+    padding: 50px;
+}
+.table td :hover{
+    background-color: #2e2d2c;
+    cursor: pointer;
+    color: rgb(200, 201, 202);
+    transition: 1s;
+}
+.endva{
+    display: block;
+    width: 100%;
+}
+.endva ul {
+    background-color: rgb(72, 70, 70);
+    margin: 0;
+    overflow: hidden;
+}
+.endva li{
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    padding: 40px;
+
+   
+}
+.endva li :hover{
+    cursor: pointer;
+}
+.endva a {
+    text-decoration: none;
+    color:  rgb(30, 29, 29);
+}
+body{
+
+    height: 80px;
+}
+.endva1{
+    display: block;
+    margin-top: 200px;
+}
+.endva1 ul {
+    background-color: rgb(72, 70, 70);
+    margin: 0;
+    overflow: hidden;
+}
+.endva1 li{
+    text-align: center;
+    list-style: none;
+    
+    padding: 40px;
+
+   
+}
+.endva1 a {
+    text-decoration: none;
+    color:  rgb(30, 29, 29);
+}
+.endva1 li :hover{
+    cursor: pointer;
+}
+
+/**aboutme**/
+.Bagan-me{
+    width: 300px;
+    position: relative;
+    left: 5px;
+    top: 3.5px;
+    
+}
+.bagan-box{
+    border:solid;
+    border-color: dimgrey;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 250px;
+
+}
+.bagan-des:hover{
+    cursor: pointer;
+}
+.bagan-div{
+    display: inline-block;
+}
+.bagan-des{
+    background-color: rgb(249, 220, 184);
+    padding: 40px;
+    display: inline-block;
+    position: relative;
+    bottom: 110px;
+    left: 10px;
+    color: black;
+}
+
+
+
+.pain-me{
+    width: 400px;
+    position: relative;
+    top: 2px;
+    left: 90px;
+}
+.pain-box{
+    margin-top: 30px;
+    border: solid;
+    border-color: violet;
+    width: 100%;
+    background-color: black;
+}
+.pain-div{
+    display: inline-block;
+}
+.pain-des{
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    bottom: 100px;
+    left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.pain-des:hover{
+    background-color: rgb(137, 46, 137);
+    transition: 3s;
+    cursor: pointer;
+
+}
+.snow-me{
+    width: 500px;
+}
+.dream-me{
+    width: 500px;
+    border: solid;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+.dream-box{
+    margin-top: 30px;
+    border: solid;
+    background-color: rgb(168, 194, 205);
+    margin-bottom: 30px;
+    
+
+}
+.dream-des{
+    display: inline-block;
+    position: relative;
+    bottom: 130px;
+    color: rgb(228, 229, 230);
+    left: 50px;
+    padding: 30px;
+    
+
+}
+.dream-des:hover{
+    background-color: rgb(211, 210, 210);
+    color: black;
+    transition: 2s;
+    cursor: pointer;
+}
+.dream-div{
+    display: inline-block;
+    
+
+}
+.phisicity-me{
+    width: 500px;
+    position: relative;
+    top: 2.5px;
+}
+.phisicity-box{
+    margin-bottom: 30px;
+}
+.phisicity-div{
+    background-color: rgb(147, 85, 34);
+}
+.phisicity-des{
+    background-color: rgb(121, 75, 38);
+    color: rgb(162, 156, 156);
+}
+.phisicity-des-2{
+    padding: 30px;
+    
+}
+.phisicity-des-2:hover{
+    background-color: burlywood;
+    transition: 3s;
+    cursor: pointer;
+    color: black;
+}
+
+.inlay{
+    width: 100px;
+}
+.snow-box{
+    margin-bottom: 30px;
+}
+.snow-div{
+    background-color: snow;
+}
+.snow-des{
+    background-color: rgb(117, 172, 202);
+    color: snow;
+}
+.snow-des-2{
+    padding: 50px;
+    
+}
+.snow-des-2:hover{
+    background-color: snow;
+    color: black;
+    transition: 2s;
+}
+.inlay-box{
+    margin-bottom: 30px;
+}
+.about-me{
+    text-align: center;
+}
+.hello{
+    text-align: center;
+}
+.journey{
+    text-align: center;
+}
+.container {
+    margin-top: 20px;
+}
+.slide-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+    
+}
+
+.slide-img{
+    display: flex;
+    aspect-ratio: 16/9;
+    scroll-snap-align: start;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    scroll-behavior: smooth;
+    }
+
+
+    
+
+
+.slide-img a {
+    flex: 1 0 100%;
+    width: 48rem;
+    animation: slide 16s infinite;
+    
+}
+
+.slide-img img{
+    flex: 1 0 100%;
+    width: 100%;
+    scroll-snap-align: start;
+    animation: slide 16s infinite;
+    object-fit: cover;
+}
+@keyframes slide {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-50%);
+    }
+    55%{
+        transform: translateX(-50%);
+    }
+    75%{
+        transform: translateX(-100%);
+    }
+    80%{
+        transform: translateX(-100%);
+    }
+    90%{
+        transform: translateX(-50%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
+
+}
+.slider-noti{
+    display: flex;
+    background-color: #2e2d2c;
+    color: rgb(190, 183, 175);
+    columns: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 10%;
+    padding: 15px;
+    z-index: 1;
+    border-radius: 0.5rem;
+}
+.slider-noti:hover{
+    cursor: pointer;
+}
+
+.checkout-header {
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+  
+    display: flex;
+    justify-content: center;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  .header-content {
+    width: 100%;
+    max-width: 1100px;
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkout-header-left-section {
+    width: 150px;
+  }
+  
+  .amazon-logo {
+    width: 100px;
+    margin-top: 12px;
+  }
+  
+  .amazon-mobile-logo {
+    display: none;
+  }
+  
+  /* @media is used to create responsive design (making the
+     website look good on any screen size). This @media
+     means when the screen width is 575px or less, different
+     styles (inside the {...}) will be applied. */
+  @media (max-width: 575px) {
+    .checkout-header-left-section {
+      width: auto;
+    }
+  
+    .amazon-logo {
+      display: none;
+    }
+  
+    .amazon-mobile-logo {
+      display: inline-block;
+      height: 35px;
+      margin-top: 5px;
+    }
+  }
+  
+  .checkout-header-middle-section {
+    flex: 1;
+    flex-shrink: 0;
+    text-align: center;
+  
+    font-size: 25px;
+    font-weight: 500;
+  
+    display: flex;
+    justify-content: center;
+  }
+  
+  .return-to-home-link {
+    color: rgb(0, 113, 133);
+    font-size: 23px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 1000px) {
+    .checkout-header-middle-section {
+      font-size: 20px;
+      margin-right: 60px;
+    }
+  
+    .return-to-home-link {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .checkout-header-middle-section {
+      margin-right: 5px;
+    }
+  }
+  
+  .checkout-header-right-section {
+    text-align: right;
+    width: 150px;
+  }
+  
+  @media (max-width: 1000px) {
+    .checkout-header-right-section {
+      width: auto;
+    }
+  }
+  .main {
+    max-width: 1100px;
+    padding-left: 30px;
+    padding-right: 30px;
+  
+    margin-top: 140px;
+    margin-bottom: 100px;
+  
+    /* margin-left: auto;
+       margin-right auto;
+       Is a trick for centering an element horizontally
+       without needing a container. */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .page-title {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+  
+  .checkout-grid {
+    display: grid;
+    /* Here, 1fr means the first column will take
+       up the remaining space in the grid. */
+    grid-template-columns: 1fr 350px;
+    column-gap: 12px;
+  
+    /* Use align-items: start; to prevent the elements
+       in the grid from stretching vertically. */
+    align-items: start;
+  }
+  
+  @media (max-width: 1000px) {
+    .main {
+      max-width: 500px;
+    }
+  
+    .checkout-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .cart-item-container,
+  .payment-summary {
+    border: 1px solid rgb(11, 11, 11);
+    border-radius: 4px;
+    padding: 18px;
+  }
+  
+  .cart-item-container {
+    margin-bottom: 12px;
+  }
+  
+  .payment-summary {
+    padding-bottom: 5px;
+  }
+  
+  @media (max-width: 1000px) {
+    .payment-summary {
+      /* grid-row: 1 means this element will be placed into row
+        1 in the grid. (Normally, the row that an element is
+        placed in is determined by the order of the elements in
+        the HTML. grid-row overrides this default ordering). */
+      grid-row: 1;
+      margin-bottom: 12px;
+    }
+  }
+  
+  .delivery-date {
+    color: rgb(0, 118, 0);
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 22px;
+  }
+  
+  .cart-item-details-grid {
+    display: grid;
+    /* 100px 1fr 1fr; means the 2nd and 3rd column will
+       take up half the remaining space in the grid
+       (they will divide up the remaining space evenly). */
+    grid-template-columns: 100px 1fr 1fr;
+    column-gap: 25px;
+  }
+  
+  @media (max-width: 1000px) {
+    .cart-item-details-grid {
+      grid-template-columns: 100px 1fr;
+      row-gap: 30px;
+    }
+  }
+  
+  .product-image {
+    max-width: 100%;
+    max-height: 120px;
+  
+    /* margin-left: auto;
+       margin-right auto;
+       Is a trick for centering an element horizontally
+       without needing a container. */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .product-name {
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  
+  .product-price {
+    color: rgb(177, 39, 4);
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  
+  .product-quantity .link-primary {
+    margin-left: 3px;
+  }
+  
+  @media (max-width: 1000px) {
+    .delivery-options {
+      grid-column: 1 / span 2;
+    }
+  }
+  
+  .delivery-options-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .delivery-option {
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    margin-bottom: 12px;
+    cursor: pointer;
+  }
+  
+  .delivery-option-input {
+    margin-left: 0px;
+    cursor: pointer;
+  }
+  
+  .delivery-option-date {
+    color: rgb(0, 118, 0);
+    font-weight: 500;
+    margin-bottom: 3px;
+  }
+  
+  .delivery-option-price {
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+  }
+  
+  .payment-summary-title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  
+  .payment-summary-row {
+    display: grid;
+    /* 1fr auto; means the width of the 2nd column will be
+       determined by the elements inside the column (auto).
+       The 1st column will take up the remaining space. */
+    grid-template-columns: 1fr auto;
+  
+    font-size: 15px;
+    margin-bottom: 9px;
+  }
+  
+  .payment-summary-money {
+    text-align: right;
+  }
+  
+  .subtotal-row .payment-summary-money {
+    border-top: 1px solid rgb(222, 222, 222);
+  }
+  
+  .subtotal-row div {
+    padding-top: 9px;
+  }
+  
+  .total-row {
+    color: rgb(177, 39, 4);
+    font-weight: 700;
+    font-size: 18px;
+  
+    border-top: 1px solid rgb(222, 222, 222);
+    padding-top: 18px;
+  }
+  
+  .place-order-button {
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+  
+    margin-top: 11px;
+    margin-bottom: 15px;
+  }
+
+  .delete-quantity-link{
+    color: rgb(90, 90, 235);
+  }
+  .delete-quantity-link:hover {
+    cursor: pointer;
+    color: coral;
+
+  }
+  .update-quantity-link{
+    color: rgb(90, 90, 235);
+
+
+  }
+  .update-quantity-link:hover{
+    cursor: pointer;
+    color: coral;
+
+  }
+  .row{
+    width: auto;
+  }
+  .general{
+    width:500px;
+    position: relative ;
+    left: 35%;
+  }
